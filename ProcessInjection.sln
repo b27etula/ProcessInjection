@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30709.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VictimProcess", "VictimProcess\VictimProcess.vcxproj", "{70028461-6F4E-4774-B862-58AF0B8A1403}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShellcodeInjection", "ShellcodeInjection\ShellcodeInjection.vcxproj", "{FD577050-DD94-4576-873C-A54C29C04A6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{70028461-6F4E-4774-B862-58AF0B8A1403}.Release|x64.Build.0 = Release|x64
 		{70028461-6F4E-4774-B862-58AF0B8A1403}.Release|x86.ActiveCfg = Release|Win32
 		{70028461-6F4E-4774-B862-58AF0B8A1403}.Release|x86.Build.0 = Release|Win32
+		{FD577050-DD94-4576-873C-A54C29C04A6A}.Debug|x64.ActiveCfg = Debug|x64
+		{FD577050-DD94-4576-873C-A54C29C04A6A}.Debug|x64.Build.0 = Debug|x64
+		{FD577050-DD94-4576-873C-A54C29C04A6A}.Debug|x86.ActiveCfg = Debug|Win32
+		{FD577050-DD94-4576-873C-A54C29C04A6A}.Debug|x86.Build.0 = Debug|Win32
+		{FD577050-DD94-4576-873C-A54C29C04A6A}.Release|x64.ActiveCfg = Release|x64
+		{FD577050-DD94-4576-873C-A54C29C04A6A}.Release|x64.Build.0 = Release|x64
+		{FD577050-DD94-4576-873C-A54C29C04A6A}.Release|x86.ActiveCfg = Release|Win32
+		{FD577050-DD94-4576-873C-A54C29C04A6A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
