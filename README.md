@@ -1,6 +1,12 @@
 # Process injection techniques
 ## Shellcode injection
-Reading and writing some data from/to process and inject simple code shows messagebox with "Injected" text.
+Victim process source code:
+
+![pic0](./pics/Screenshot_0.png)
+
+It shows messagebox
+
+![pic5](./pics/Screenshot_5.png)
 ## PE injection
 bla bla
 ## DLL injection
