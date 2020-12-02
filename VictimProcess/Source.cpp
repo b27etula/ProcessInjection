@@ -1,5 +1,6 @@
 #include <Windows.h>
 
+
 void showMessageBox(const CHAR* lpText, const CHAR* lpCaption)
 {
 	MessageBoxA(NULL, lpText, lpCaption, MB_OK);
