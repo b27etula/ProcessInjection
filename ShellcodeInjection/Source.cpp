@@ -38,7 +38,7 @@ VOID readWriteMemory(HANDLE hProcess, DWORD dwBaseAddress)
 
 VOID injectShellcode(HANDLE hProcess, DWORD dwBaseAddress)
 {
-    BYTE shellcode[0x100] = "\x31\xC0\x68\xCC\xCC\xCC\xCC\x68\xBB\xBB\xBB\xBB\xBB\xAA\xAA\xAA\xAA\xFF\xD3\x83\xC4\x10\xC3\x49\x6e\x6a\x65\x63\x74\x65\x64";
+    BYTE shellcode[0x100] = "\x31\xC0\x68\xCC\xCC\xCC\xCC\x68\xBB\xBB\xBB\xBB\xBB\xAA\xAA\xAA\xAA\xFF\xD3\x83\xC4\x08\xC3\x49\x6e\x6a\x65\x63\x74\x65\x64";
     DWORD pShellcode = (DWORD)VirtualAllocEx(hProcess, NULL, 0x22, MEM_COMMIT, PAGE_EXECUTE_READWRITE);
     DWORD pNewText = pShellcode + 0x17;
     DWORD pCaption = dwBaseAddress + 0x2100;
