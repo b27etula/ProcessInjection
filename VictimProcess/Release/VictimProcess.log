@@ -1,4 +1,3 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(77,5): warning : Access to the path 'd:\github\processinjection\release\victimprocess.exe' is denied.
-  Source.cpp
+﻿  Source.cpp
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1010,5): error MSB6006: "link.exe" exited with code 1104.
 LINK : fatal error LNK1104: cannot open file 'D:\github\ProcessInjection\Release\VictimProcess.exe'
